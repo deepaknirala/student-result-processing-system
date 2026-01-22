@@ -5,15 +5,15 @@
 #define MAX 100
 
 struct Student {
-    char id[20];
-    char name[50];
-    int minor[SUBJECTS];
-    int major[SUBJECTS];
-    int subjectTotal[SUBJECTS];
-    int total;
-    float percentage;
-    char grade[3];
-    float cgpa;
+  char id[20];
+  char name[50];
+  int minor[SUBJECTS];
+  int major[SUBJECTS];
+  int subjectTotal[SUBJECTS];
+  int total;
+  float percentage;
+  char grade[3];
+  float cgpa;
 };
 
 int checkValidId(char id[]);
